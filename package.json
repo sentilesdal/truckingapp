@@ -1,0 +1,32 @@
+{
+  "name": "truckin",
+  "version": "1.0.0",
+  "description": "Connecting carriers with distributors using the Ethereum block chain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Brown",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-testrpc": "^4.1.1",
+    "solc": "^0.4.16",
+    "web3": "^0.20.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sentilesdal/truckingapp.git"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "shipping",
+    "carriers",
+    "distributors"
+  ],
+  "bugs": {
+    "url": "https://github.com/sentilesdal/truckingapp/issues"
+  },
+  "homepage": "https://github.com/sentilesdal/truckingapp#readme"
+}
