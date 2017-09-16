@@ -6,9 +6,11 @@
     "react-scripts": "1.0.13"
   },
   "dependencies": {
+    "material-icons": "^0.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-foundation": "^0.9.2"
+    "react-foundation": "^0.9.2",
+    "react-layout-components": "^3.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
