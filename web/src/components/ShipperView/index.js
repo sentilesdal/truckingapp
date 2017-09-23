@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Box, Section, Heading } from 'grommet';
+import ShipperSearch from './ShipperSearch';
+import ShipperTable from './ShipperTable';
 
-export default function ShipperView(props) {
-  return (
-    <div>
-      <h1>SHIPPER VIEW</h1>
-    </div>
-  );
-}
-
+export default class ShipperView extends Component {
+  render() {
+    return (
+      <Box pad="small" size="full">
+        <Section align="start">
+          <Heading tag="h3">Search</Heading>
+          <ShipperSearch />
+        </Section>
+        <Section align="start">
+          <Heading tag="h3">Shippers</Heading>
+          <ShipperTable />
+        </Section>
+      </Box>
+    );
+  }
+};
