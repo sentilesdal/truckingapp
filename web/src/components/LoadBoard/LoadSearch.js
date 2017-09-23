@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from 'data/loads.json';
+// import data from 'data/loads.json';
 import { Form, SearchInput } from 'grommet';
 import './LoadSearch.css';
 

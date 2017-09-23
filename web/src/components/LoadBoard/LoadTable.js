@@ -3,7 +3,6 @@ import arraySort from 'array-sort';
 import { Table, TableHeader } from 'grommet';
 import data from 'data/loads.json';
 import LoadItem from './LoadItem';
-import LoadSearch from './LoadSearch';
 import './LoadTable.css';
 
 // TODO: get this from the data
