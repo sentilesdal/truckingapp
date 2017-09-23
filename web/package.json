@@ -6,6 +6,8 @@
     "react-scripts": "1.0.13"
   },
   "dependencies": {
+    "array-sort": "^0.1.4",
+    "grommet": "^1.7.0",
     "material-icons": "^0.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
