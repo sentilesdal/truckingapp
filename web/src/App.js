@@ -1,15 +1,31 @@
 import React, { Component } from 'react';
-import Header from 'components/Header';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Split } from 'grommet';
+import Sidebar from 'components/Sidebar';
 import LoadBoard from 'components/LoadBoard';
+import LoginView from 'components/LoginView';
+import CarrierView from 'components/CarrierView';
+import ShipperView from 'components/ShipperView';
+import ProfileView from 'components/ProfileView';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header />
-        <LoadBoard />
-      </div>
+      <Router>
+        <div id="App">
+          <Split flex="right">
+          <Sidebar fixed />
+          <div id="main">
+            <Route path="/login" component={LoginView} />
+            <Route path="/loadboard" component={LoadBoard} />
+            <Route path="/carriers" component={CarrierView} />
+            <Route path="/shippers" component={ShipperView} />
+            <Route path="/profile" component={ProfileView} />
+          </div>
+          </Split>
+        </div>
+      </Router>
     );
   }
 }

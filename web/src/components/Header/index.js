@@ -4,7 +4,7 @@ import { Box, Button, Heading, Label } from 'grommet';
 export default class Header extends Component {
   render() {
     return (
-      <Box direction="horizontal" pad="small" justify="between" align="center" separator="bottom">
+      <Box className="header" direction="horizontal" pad="small" justify="between" align="center" separator="bottom">
         <Heading margin="none" tag="h3">Truckin</Heading> 
         <Button onClick={() => {}}
           label={(
